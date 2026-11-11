@@ -1,0 +1,4 @@
+assumed_concentration_mcg_per_ml,n_convertible,dose_mean,dose_median,dose_p95,over_range_frac,n_assumed_mlhr
+2.0,209261,2.1616,0.3119,1.2,0.0302,133462
+4.0,209261,2.4274,0.5008,1.6564,0.0674,133462
+8.0,209261,2.9589,0.7974,3.2803,0.2,133462

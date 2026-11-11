@@ -1,0 +1,16 @@
+{
+  "n_rows": 350260,
+  "n_covariates": 17,
+  "marginal_treatment_prob": 0.10186147433335237,
+  "weight_mean": 0.9973700372113038,
+  "weight_max": 2.441968344651126,
+  "weight_p1": 0.15298112725829854,
+  "weight_p99": 2.441968344651126,
+  "effective_sample_size": 330629.7,
+  "ess_pct_of_rows": 94.4,
+  "clip_rule": "1%-99% percentile",
+  "clip_fallback": [
+    0.05,
+    20.0
+  ]
+}

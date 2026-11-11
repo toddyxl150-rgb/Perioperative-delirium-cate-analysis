@@ -1,0 +1,429 @@
+{
+  "n_patients": 21561,
+  "n_treated": 1036,
+  "n_with_baseline_rass": 16752,
+  "v1_subgroups": [
+    {
+      "outcome": "v1",
+      "subgroup": "Age <65",
+      "n": 10716,
+      "n_treated": 559,
+      "rr": 0.653,
+      "rr_lo": 0.485,
+      "rr_hi": 0.829,
+      "rd": -0.0505,
+      "p_interaction": 0.6924
+    },
+    {
+      "outcome": "v1",
+      "subgroup": "Age >=65",
+      "n": 10845,
+      "n_treated": 399,
+      "rr": 0.699,
+      "rr_lo": 0.531,
+      "rr_hi": 0.893,
+      "rd": -0.0417,
+      "p_interaction": 0.6924
+    },
+    {
+      "outcome": "v1",
+      "subgroup": "Surgical ICU",
+      "n": 11855,
+      "n_treated": 562,
+      "rr": 0.822,
+      "rr_lo": 0.649,
+      "rr_hi": 0.99,
+      "rd": -0.0262,
+      "p_interaction": 0.0079
+    },
+    {
+      "outcome": "v1",
+      "subgroup": "Medical ICU",
+      "n": 12160,
+      "n_treated": 611,
+      "rr": 0.778,
+      "rr_lo": 0.583,
+      "rr_hi": 0.944,
+      "rd": -0.0308,
+      "p_interaction": 0.0622
+    },
+    {
+      "outcome": "v1",
+      "subgroup": "Sepsis",
+      "n": 2942,
+      "n_treated": 120,
+      "rr": 0.799,
+      "rr_lo": 0.397,
+      "rr_hi": 1.267,
+      "rd": -0.0245,
+      "p_interaction": 0.4919
+    },
+    {
+      "outcome": "v1",
+      "subgroup": "Non-sepsis",
+      "n": 18619,
+      "n_treated": 838,
+      "rr": 0.654,
+      "rr_lo": 0.534,
+      "rr_hi": 0.797,
+      "rd": -0.0501,
+      "p_interaction": 0.4919
+    },
+    {
+      "outcome": "v1",
+      "subgroup": "Invasive MV",
+      "n": 3168,
+      "n_treated": 127,
+      "rr": 2.182,
+      "rr_lo": 1.608,
+      "rr_hi": 2.757,
+      "rd": 0.1702,
+      "p_interaction": 0.0
+    },
+    {
+      "outcome": "v1",
+      "subgroup": "No invasive MV",
+      "n": 18393,
+      "n_treated": 831,
+      "rr": 0.446,
+      "rr_lo": 0.337,
+      "rr_hi": 0.542,
+      "rd": -0.0783,
+      "p_interaction": 0.0
+    },
+    {
+      "outcome": "v1",
+      "subgroup": "RASS +1/+2 (mild)",
+      "n": 12528,
+      "n_treated": 415,
+      "rr": 0.95,
+      "rr_lo": 0.744,
+      "rr_hi": 1.172,
+      "rd": -0.0072,
+      "p_interaction": 0.0003
+    },
+    {
+      "outcome": "v1",
+      "subgroup": "RASS +3/+4 (severe)",
+      "n": 2091,
+      "n_treated": 74,
+      "rr": 2.591,
+      "rr_lo": 1.535,
+      "rr_hi": 3.874,
+      "rd": 0.1181,
+      "p_interaction": 0.0003
+    }
+  ],
+  "alt_subgroups": [
+    {
+      "outcome": "alt",
+      "subgroup": "Age <65",
+      "n": 10716,
+      "n_treated": 559,
+      "rr": 0.638,
+      "rr_lo": 0.466,
+      "rr_hi": 0.806,
+      "rd": -0.0558,
+      "p_interaction": 0.8748
+    },
+    {
+      "outcome": "alt",
+      "subgroup": "Age >=65",
+      "n": 10845,
+      "n_treated": 399,
+      "rr": 0.653,
+      "rr_lo": 0.499,
+      "rr_hi": 0.843,
+      "rd": -0.0514,
+      "p_interaction": 0.8748
+    },
+    {
+      "outcome": "alt",
+      "subgroup": "Surgical ICU",
+      "n": 11855,
+      "n_treated": 562,
+      "rr": 0.817,
+      "rr_lo": 0.641,
+      "rr_hi": 0.981,
+      "rd": -0.0279,
+      "p_interaction": 0.0019
+    },
+    {
+      "outcome": "alt",
+      "subgroup": "Medical ICU",
+      "n": 12160,
+      "n_treated": 611,
+      "rr": 0.757,
+      "rr_lo": 0.568,
+      "rr_hi": 0.931,
+      "rd": -0.0358,
+      "p_interaction": 0.038
+    },
+    {
+      "outcome": "alt",
+      "subgroup": "Sepsis",
+      "n": 2942,
+      "n_treated": 120,
+      "rr": 0.783,
+      "rr_lo": 0.386,
+      "rr_hi": 1.219,
+      "rd": -0.0273,
+      "p_interaction": 0.4422
+    },
+    {
+      "outcome": "alt",
+      "subgroup": "Non-sepsis",
+      "n": 18619,
+      "n_treated": 838,
+      "rr": 0.625,
+      "rr_lo": 0.503,
+      "rr_hi": 0.776,
+      "rd": -0.0583,
+      "p_interaction": 0.4422
+    },
+    {
+      "outcome": "alt",
+      "subgroup": "Invasive MV",
+      "n": 3168,
+      "n_treated": 127,
+      "rr": 2.021,
+      "rr_lo": 1.518,
+      "rr_hi": 2.527,
+      "rd": 0.1624,
+      "p_interaction": 0.0
+    },
+    {
+      "outcome": "alt",
+      "subgroup": "No invasive MV",
+      "n": 18393,
+      "n_treated": 831,
+      "rr": 0.43,
+      "rr_lo": 0.327,
+      "rr_hi": 0.514,
+      "rd": -0.0854,
+      "p_interaction": 0.0
+    },
+    {
+      "outcome": "alt",
+      "subgroup": "RASS +1/+2 (mild)",
+      "n": 12528,
+      "n_treated": 415,
+      "rr": 0.981,
+      "rr_lo": 0.763,
+      "rr_hi": 1.195,
+      "rd": -0.0028,
+      "p_interaction": 0.0859
+    },
+    {
+      "outcome": "alt",
+      "subgroup": "RASS +3/+4 (severe)",
+      "n": 2091,
+      "n_treated": 74,
+      "rr": 1.556,
+      "rr_lo": 0.871,
+      "rr_hi": 2.292,
+      "rd": 0.0711,
+      "p_interaction": 0.0859
+    }
+  ],
+  "mv_groupkfold": {
+    "n_splits": 5,
+    "folds": [
+      {
+        "fold": 1,
+        "n_test": 886,
+        "n_treated": 0,
+        "n_hospitals": 1,
+        "risk_t1": NaN,
+        "risk_t0": 0.0,
+        "rr_crude": null,
+        "rd_crude": null
+      },
+      {
+        "fold": 2,
+        "n_test": 841,
+        "n_treated": 24,
+        "n_hospitals": 1,
+        "risk_t1": 0.0,
+        "risk_t0": 0.04528763769889841,
+        "rr_crude": 0.0,
+        "rd_crude": -0.04528763769889841
+      },
+      {
+        "fold": 3,
+        "n_test": 481,
+        "n_treated": 61,
+        "n_hospitals": 16,
+        "risk_t1": 0.32786885245901637,
+        "risk_t0": 0.2714285714285714,
+        "rr_crude": 1.2079378774805867,
+        "rd_crude": 0.05644028103044496
+      },
+      {
+        "fold": 4,
+        "n_test": 480,
+        "n_treated": 25,
+        "n_hospitals": 16,
+        "risk_t1": 0.4,
+        "risk_t0": 0.2945054945054945,
+        "rr_crude": 1.3582089552238807,
+        "rd_crude": 0.10549450549450551
+      },
+      {
+        "fold": 5,
+        "n_test": 480,
+        "n_treated": 22,
+        "n_hospitals": 16,
+        "risk_t1": 0.45454545454545453,
+        "risk_t0": 0.3034934497816594,
+        "rr_crude": 1.4977109221713538,
+        "rd_crude": 0.15105200476379516
+      }
+    ],
+    "n_valid_folds": 4,
+    "n_folds_rr_gt1": 3,
+    "frac_rr_gt1": 0.75
+  },
+  "note": "探索性；未做多重比较校正；GroupKFold 用留出折粗 RR 判方向。",
+  "stratified_groupkfold_mv": {
+    "method": "manual stratified snake folds (by hospital MV volume) + train/test g-computation",
+    "n_splits": 5,
+    "n_valid_folds": 5,
+    "n_folds_rr_gt1": 5,
+    "n_folds_rr_gt1_significant": 5,
+    "frac_rr_gt1": 1.0,
+    "frac_rr_gt1_significant": 1.0,
+    "folds": [
+      {
+        "n_test": 940,
+        "n_treated_test": 6,
+        "n_hospitals_test": 9,
+        "rr": 1.4832849699986317,
+        "rr_ci95": [
+          1.0978657087790447,
+          1.8605221585162162
+        ],
+        "rd": 0.08879616487596181,
+        "rd_ci95": [
+          0.0180229292785444,
+          0.14988165312264076
+        ],
+        "significant_positive": true,
+        "fold": 1
+      },
+      {
+        "n_test": 885,
+        "n_treated_test": 29,
+        "n_hospitals_test": 9,
+        "rr": 1.969818747794975,
+        "rr_ci95": [
+          1.6030783306925473,
+          2.4159175989481354
+        ],
+        "rd": 0.18971976102987495,
+        "rd_ci95": [
+          0.11954778621328983,
+          0.2672950664004857
+        ],
+        "significant_positive": true,
+        "fold": 2
+      },
+      {
+        "n_test": 367,
+        "n_treated_test": 41,
+        "n_hospitals_test": 10,
+        "rr": 2.2226975611169077,
+        "rr_ci95": [
+          1.7459487897202688,
+          2.8253055679120846
+        ],
+        "rd": 0.1563573834599505,
+        "rd_ci95": [
+          0.09040527553481428,
+          0.2335605676101707
+        ],
+        "significant_positive": true,
+        "fold": 3
+      },
+      {
+        "n_test": 328,
+        "n_treated_test": 23,
+        "n_hospitals_test": 9,
+        "rr": 2.5461747259514893,
+        "rr_ci95": [
+          2.030812010781732,
+          3.157072678124097
+        ],
+        "rd": 0.19954660944985653,
+        "rd_ci95": [
+          0.13222218368519575,
+          0.27158376894435415
+        ],
+        "significant_positive": true,
+        "fold": 4
+      },
+      {
+        "n_test": 339,
+        "n_treated_test": 28,
+        "n_hospitals_test": 9,
+        "rr": 2.642296460158723,
+        "rr_ci95": [
+          1.8991899389164804,
+          3.361745536861574
+        ],
+        "rd": 0.20436486992064581,
+        "rd_ci95": [
+          0.11812760652190382,
+          0.28077941288560626
+        ],
+        "significant_positive": true,
+        "fold": 5
+      }
+    ],
+    "fold_sizes": [
+      {
+        "fold": 1,
+        "n": 1044,
+        "hospitals": 10,
+        "treated": 6
+      },
+      {
+        "fold": 2,
+        "n": 1005,
+        "hospitals": 10,
+        "treated": 32
+      },
+      {
+        "fold": 3,
+        "n": 390,
+        "hospitals": 10,
+        "treated": 42
+      },
+      {
+        "fold": 4,
+        "n": 363,
+        "hospitals": 10,
+        "treated": 23
+      },
+      {
+        "fold": 5,
+        "n": 366,
+        "hospitals": 10,
+        "treated": 29
+      }
+    ]
+  },
+  "robust_vs_exploratory": {
+    "robust": [
+      "Invasive MV (RR>1 且多数折显著)"
+    ],
+    "exploratory": [
+      "Age",
+      "Admission type",
+      "Sepsis",
+      "RASS severity",
+      "No invasive MV"
+    ],
+    "rule": "稳健 = 5 折中至少 3 折 RR>1 且 CI 不含 1；否则为探索性。"
+  }
+}
