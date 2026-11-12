@@ -1,10 +1,12 @@
-# 代码包（待上传，尚未公开）
+# 早期右美托咪定靶试验仿真 — 分析代码仓库
 
-**状态**：本目录是「准备上传到公开仓库」的本地副本，**尚未上传、尚未取得 URL 或 DOI**。
-论文中 Code availability 声明已按 A 方案（公开仓库）写好，仅等两个链接填入。
+**状态**：本仓库已公开，提交 `a8e2613`（28 个文件）；论文中的代码可得性声明已写入此地址。
+Zenodo 归档 DOI 待生成后补充。
 
-> 白话：把 `code/` 整个文件夹上传到 GitHub，再把该版本归档到 Zenodo 拿一个永久编号（DOI），
-> 最后把两个链接填进主稿 `01_Manuscript_Final.md` 与答案卡 v2 里的占位即可。
+> 白话：这里是论文全部数字所用的分析代码。底层患者级数据不随本仓库分发，
+> 需按下方第四节的条件向 PhysioNet 申请；代码本身可自由获取。
+
+仓库地址：https://github.com/toddyxl150-rgb/Perioperative-delirium-cate-analysis
 
 ---
 
@@ -87,16 +89,14 @@ Data availability 与 Code availability 分成两段的原因。
 
 ---
 
-## 六、上传前还需完成 4 件事
+## 六、发布状态与待办
 
-1. 建 GitHub 仓库并上传 `code/` + `results/` + 本 README + `SPECIFICATION_v1.3.md`，记下完整 URL。
-2. 在 Zenodo 归档该版本，取得 DOI（永久编号，链接不会失效）。
-3. 选一个开源许可证（如 MIT 或 CC-BY-4.0）放入仓库根目录 —— 公开代码仓库通常需要，未定请留待 PI 决定。
-4. 把两个链接填入：
-   - 主稿 `01_Manuscript_Final.md` 第 105 行的 `【待填：GitHub 仓库完整 URL】` / `【待填：Zenodo DOI】`
-   - 答案卡 `_官方表格/Nature_Reporting_Summary_本文填写答案_手动录入用_v2.docx` 第 3.2 节的 `[REPOSITORY URL]` / `[ZENODO DOI]`
-
----
+| # | 事项 | 状态 |
+|---|---|---|
+| 1 | 建 GitHub 仓库并推送 `code/`、`results/`、README、规格文件 | ✅ 已完成（提交 `a8e2613`） |
+| 2 | Zenodo 归档并取持久 DOI | ⬜ 待完成；取得后在本文件与主稿补入 |
+| 3 | 添加开源许可证 LICENSE（如 MIT） | ⬜ 待 PI 决定版权所有者 |
+| 4 | 论文 Code availability 回填 | ✅ GitHub 地址已填；DOI 待补 |
 
 ## 七、可直接粘贴到 GitHub 仓库描述的英文
 
@@ -108,4 +108,4 @@ Data availability 与 Code availability 分成两段的原因。
 
 ---
 
-**本文件由本会话生成，仅整理本地文件，未对外上传或发布任何内容。**
+**代码已公开；底层患者级数据受 eICU-CRD 数据使用协议约束，不在本仓库分发。**
